@@ -50,9 +50,9 @@
         <script>
         var map = L.map('map', {
             zoomControl:false, maxZoom:28, minZoom:1
-        }).fitBounds([[36.9925046679333,137.0530148583471],[41.99527360846752,147.17543986419437]]);
+        }).fitBounds([[36.9925046679333,134.7973033269864],[41.99527360846752,149.43115139555508]]);
         var hash = new L.Hash(map);
-        map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
+        map.attributionControl.setPrefix('<a href="https://github.com/qgis2web/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
         // remove popup's row if "visible-with-data"
         function removeEmptyRowsFromPopupContent(content, feature) {
@@ -225,18 +225,61 @@
                 interactive: true,
             }
                     break;
+                case '1':
+                    return {
+                pane: 'pane_fukushima_town_2',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,127,0,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '2':
+                    return {
+                pane: 'pane_fukushima_town_2',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(84,196,255,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '3':
+                    return {
+                pane: 'pane_fukushima_town_2',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(122,231,25,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '4':
+                    return {
+                pane: 'pane_fukushima_town_2',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,103,244,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '5':
+                    return {
+                pane: 'pane_fukushima_town_2',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(253,255,0,0.5)',
+                interactive: true,
+            }
+                    break;
                 default:
                     return {
                 pane: 'pane_fukushima_town_2',
-                opacity: 1,
-                color: 'rgba(35,35,35,0.4)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
-                fill: true,
-                fillOpacity: 1,
-                fillColor: 'rgba(212,77,80,0.4)',
+                stroke: false, 
+                fillOpacity: 0,
                 interactive: true,
             }
                     break;
@@ -347,18 +390,61 @@
                 interactive: true,
             }
                     break;
+                case '1':
+                    return {
+                pane: 'pane_iwate_town_4',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,127,0,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '2':
+                    return {
+                pane: 'pane_iwate_town_4',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(84,196,255,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '3':
+                    return {
+                pane: 'pane_iwate_town_4',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(122,231,25,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '4':
+                    return {
+                pane: 'pane_iwate_town_4',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,103,244,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '5':
+                    return {
+                pane: 'pane_iwate_town_4',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(253,255,0,0.5)',
+                interactive: true,
+            }
+                    break;
                 default:
                     return {
                 pane: 'pane_iwate_town_4',
-                opacity: 1,
-                color: 'rgba(35,35,35,0.4)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
-                fill: true,
-                fillOpacity: 1,
-                fillColor: 'rgba(228,196,122,0.4)',
+                stroke: false, 
+                fillOpacity: 0,
                 interactive: true,
             }
                     break;
@@ -469,18 +555,61 @@
                 interactive: true,
             }
                     break;
+                case '1':
+                    return {
+                pane: 'pane_miyagi_town_6',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,127,0,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '2':
+                    return {
+                pane: 'pane_miyagi_town_6',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(84,196,255,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '3':
+                    return {
+                pane: 'pane_miyagi_town_6',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(122,231,25,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '4':
+                    return {
+                pane: 'pane_miyagi_town_6',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,103,244,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '5':
+                    return {
+                pane: 'pane_miyagi_town_6',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(253,255,0,0.5)',
+                interactive: true,
+            }
+                    break;
                 default:
                     return {
                 pane: 'pane_miyagi_town_6',
-                opacity: 1,
-                color: 'rgba(35,35,35,0.4)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
-                fill: true,
-                fillOpacity: 1,
-                fillColor: 'rgba(205,57,111,0.4)',
+                stroke: false, 
+                fillOpacity: 0,
                 interactive: true,
             }
                     break;
@@ -591,18 +720,61 @@
                 interactive: true,
             }
                     break;
+                case '1':
+                    return {
+                pane: 'pane_yamagata_town_8',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,127,0,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '2':
+                    return {
+                pane: 'pane_yamagata_town_8',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(84,196,255,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '3':
+                    return {
+                pane: 'pane_yamagata_town_8',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(122,231,25,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '4':
+                    return {
+                pane: 'pane_yamagata_town_8',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,103,244,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '5':
+                    return {
+                pane: 'pane_yamagata_town_8',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(253,255,0,0.5)',
+                interactive: true,
+            }
+                    break;
                 default:
                     return {
                 pane: 'pane_yamagata_town_8',
-                opacity: 1,
-                color: 'rgba(35,35,35,0.4)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
-                fill: true,
-                fillOpacity: 1,
-                fillColor: 'rgba(231,137,228,0.4)',
+                stroke: false, 
+                fillOpacity: 0,
                 interactive: true,
             }
                     break;
@@ -713,18 +885,61 @@
                 interactive: true,
             }
                     break;
+                case '1':
+                    return {
+                pane: 'pane_akita_town_10',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,127,0,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '2':
+                    return {
+                pane: 'pane_akita_town_10',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(84,196,255,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '3':
+                    return {
+                pane: 'pane_akita_town_10',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(122,231,25,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '4':
+                    return {
+                pane: 'pane_akita_town_10',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,103,244,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '5':
+                    return {
+                pane: 'pane_akita_town_10',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(253,255,0,0.5)',
+                interactive: true,
+            }
+                    break;
                 default:
                     return {
                 pane: 'pane_akita_town_10',
-                opacity: 1,
-                color: 'rgba(35,35,35,0.4)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
-                fill: true,
-                fillOpacity: 1,
-                fillColor: 'rgba(226,122,114,0.4)',
+                stroke: false, 
+                fillOpacity: 0,
                 interactive: true,
             }
                     break;
@@ -835,18 +1050,61 @@
                 interactive: true,
             }
                     break;
+                case '1':
+                    return {
+                pane: 'pane_aomori_town_12',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,127,0,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '2':
+                    return {
+                pane: 'pane_aomori_town_12',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(84,196,255,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '3':
+                    return {
+                pane: 'pane_aomori_town_12',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(122,231,25,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '4':
+                    return {
+                pane: 'pane_aomori_town_12',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,103,244,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '5':
+                    return {
+                pane: 'pane_aomori_town_12',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(253,255,0,0.5)',
+                interactive: true,
+            }
+                    break;
                 default:
                     return {
                 pane: 'pane_aomori_town_12',
-                opacity: 1,
-                color: 'rgba(35,35,35,0.4)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
-                fill: true,
-                fillOpacity: 1,
-                fillColor: 'rgba(228,108,174,0.4)',
+                stroke: false, 
+                fillOpacity: 0,
                 interactive: true,
             }
                     break;
